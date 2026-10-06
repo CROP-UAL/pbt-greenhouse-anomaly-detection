@@ -1,0 +1,17 @@
+reference_variable,target_variable,reference_condition,severity,checks,passes,counterexamples,conformance_rate
+XGRINT,DGREXT,above_p75,deep_extreme,107,107,0,1.0
+XGRINT,DGREXT,above_p75,near_quartile,93,93,0,1.0
+XGRINT,DGREXT,below_p25,deep_extreme,163,9,154,0.0552147239263803
+XGRINT,DGREXT,below_p25,near_quartile,37,3,34,0.081081081081081
+XHINT,DHEXT,above_p75,deep_extreme,121,0,121,0.0
+XHINT,DHEXT,above_p75,near_quartile,79,0,79,0.0
+XHINT,DHEXT,below_p25,deep_extreme,110,0,110,0.0
+XHINT,DHEXT,below_p25,near_quartile,90,0,90,0.0
+XTINT,DTEXT,above_p75,deep_extreme,102,36,66,0.3529411764705882
+XTINT,DTEXT,above_p75,near_quartile,98,17,81,0.173469387755102
+XTINT,DTEXT,below_p25,deep_extreme,107,0,107,0.0
+XTINT,DTEXT,below_p25,near_quartile,93,0,93,0.0
+XHINT,XTINT,above_p75,deep_extreme,98,3,95,0.0306122448979591
+XHINT,XTINT,above_p75,near_quartile,102,2,100,0.0196078431372549
+XHINT,XTINT,below_p25,deep_extreme,86,18,68,0.2093023255813953
+XHINT,XTINT,below_p25,near_quartile,114,38,76,0.3333333333333333

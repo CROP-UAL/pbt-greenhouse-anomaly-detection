@@ -1,0 +1,9 @@
+sensor,failure_mode,counterexamples
+DHEXT,A_binary_miss,110
+DTEXT,A_binary_miss,33
+DVEXT,A_binary_miss,100
+XGRINT,A_binary_miss,173
+XGRINT,B_type_mismatch,8
+XHINT,A_binary_miss,267
+XHINT,B_type_mismatch,1
+XTINT,A_binary_miss,30

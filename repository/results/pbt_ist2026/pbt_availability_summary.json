@@ -1,0 +1,29 @@
+{
+  "insufficient_strata": 22,
+  "normal_complete_base_rows": 133317,
+  "planned_checks": {
+    "CA": 1500,
+    "CD": 1600,
+    "MV": 4500,
+    "N": 6000,
+    "ORV": 7200,
+    "PSF": 3810,
+    "SS": 4000
+  },
+  "planned_checks_adaptive_ss": {
+    "CA": 1500,
+    "CD": 1600,
+    "MV": 4500,
+    "N": 6000,
+    "ORV": 7200,
+    "PSF": 3810,
+    "SS": 2157
+  },
+  "planned_checks_total": 28610,
+  "planned_checks_total_adaptive_ss": 26767,
+  "random_seed": 20261001,
+  "ss_report_path": "data/results/pbt_ist2026/pbt_ss_availability_report.csv",
+  "strata": 600,
+  "validation_rows": 245245,
+  "validation_start": "2021-02-01 00:00:00"
+}

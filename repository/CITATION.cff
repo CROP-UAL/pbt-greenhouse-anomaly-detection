@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this replication package, please cite the associated paper."
+title: "Replication package for Property-Based Testing of ML-Based Anomaly Detectors under Incomplete Ground Truth"
+type: software
+authors:
+  - family-names: "Muñoz"
+    given-names: "Manuel"
+  - family-names: "Becerra-Terón"
+    given-names: "Antonio"
+  - family-names: "Torres"
+    given-names: "Manuel"
+  - family-names: "Rodríguez"
+    given-names: "Francisco"
+year: 2026
+repository-code: "TBD"
+license: "MIT"

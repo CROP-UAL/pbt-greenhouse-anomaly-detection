@@ -1,0 +1,11 @@
+services:
+  pbt-greenhouse-anomaly:
+    build: .
+    image: pbt-greenhouse-anomaly-replication:latest
+    working_dir: /workspace
+    environment:
+      PYTHONPATH: /workspace/src:/workspace/config
+    volumes:
+      - ./data:/workspace/data
+      - ./results:/workspace/results
+    command: ["bash", "scripts/run_experiments.sh", "validate"]
