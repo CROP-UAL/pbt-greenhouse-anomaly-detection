@@ -24,24 +24,24 @@ case "${MODE}" in
     "${PYTHON_BIN}" scripts/validate_repository.py
     ;;
   availability)
-    "${PYTHON_BIN}" -m pbt_ist2026.availability_audit
+    "${PYTHON_BIN}" -m pbt_campaign.availability_audit
     ;;
   campaign)
-    "${PYTHON_BIN}" -m pbt_ist2026.run_pbt_campaign
+    "${PYTHON_BIN}" -m pbt_campaign.run_pbt_campaign
     ;;
   posthoc)
-    "${PYTHON_BIN}" -m pbt_ist2026.posthoc_analysis
+    "${PYTHON_BIN}" -m pbt_campaign.posthoc_analysis
     ;;
   figures)
-    "${PYTHON_BIN}" results/pbt_ist2026/campaign_20260928_150110/posthoc_analysis/plot_counterexample_failure_modes.py
-    "${PYTHON_BIN}" results/pbt_ist2026/campaign_20260928_150110/posthoc_analysis/plot_rq3_noise_boundary.py
-    "${PYTHON_BIN}" results/pbt_ist2026/campaign_20260928_150110/posthoc_analysis/plot_rq3_ss_boundary.py
-    "${PYTHON_BIN}" results/pbt_ist2026/campaign_20260928_150110/posthoc_analysis/plot_rq3_cd_boundary.py
+    "${PYTHON_BIN}" results/pbt_campaign/campaign_20260928_150110/posthoc_analysis/plot_counterexample_failure_modes.py
+    "${PYTHON_BIN}" results/pbt_campaign/campaign_20260928_150110/posthoc_analysis/plot_rq3_noise_boundary.py
+    "${PYTHON_BIN}" results/pbt_campaign/campaign_20260928_150110/posthoc_analysis/plot_rq3_ss_boundary.py
+    "${PYTHON_BIN}" results/pbt_campaign/campaign_20260928_150110/posthoc_analysis/plot_rq3_cd_boundary.py
     ;;
   reproduce)
-    "${PYTHON_BIN}" -m pbt_ist2026.availability_audit
-    "${PYTHON_BIN}" -m pbt_ist2026.run_pbt_campaign
-    "${PYTHON_BIN}" -m pbt_ist2026.posthoc_analysis
+    "${PYTHON_BIN}" -m pbt_campaign.availability_audit
+    "${PYTHON_BIN}" -m pbt_campaign.run_pbt_campaign
+    "${PYTHON_BIN}" -m pbt_campaign.posthoc_analysis
     ;;
   *)
     echo "Usage: scripts/run_experiments.sh {validate|availability|campaign|posthoc|figures|reproduce}" >&2

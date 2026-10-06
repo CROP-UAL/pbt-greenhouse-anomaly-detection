@@ -13,11 +13,11 @@ from __future__ import annotations
 import os
 from pathlib import Path
 
-Path("/tmp/matplotlib-pbt-ist2026").mkdir(parents=True, exist_ok=True)
-Path("/tmp/fontconfig-pbt-ist2026").mkdir(parents=True, exist_ok=True)
+Path("/tmp/matplotlib-pbt-campaign").mkdir(parents=True, exist_ok=True)
+Path("/tmp/fontconfig-pbt-campaign").mkdir(parents=True, exist_ok=True)
 os.environ.setdefault("MPLBACKEND", "Agg")
-os.environ.setdefault("MPLCONFIGDIR", "/tmp/matplotlib-pbt-ist2026")
-os.environ.setdefault("XDG_CACHE_HOME", "/tmp/fontconfig-pbt-ist2026")
+os.environ.setdefault("MPLCONFIGDIR", "/tmp/matplotlib-pbt-campaign")
+os.environ.setdefault("XDG_CACHE_HOME", "/tmp/fontconfig-pbt-campaign")
 
 import matplotlib.pyplot as plt
 import numpy as np

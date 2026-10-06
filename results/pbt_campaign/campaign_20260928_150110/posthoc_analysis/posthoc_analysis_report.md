@@ -2,23 +2,23 @@
 
 ## Data Sources
 
-- `results/pbt_ist2026/campaign_20260928_150110/pbt_cases_raw.csv`
+- `results/pbt_campaign/campaign_20260928_150110/pbt_cases_raw.csv`
 
-- `results/pbt_ist2026/campaign_20260928_150110/pbt_sut_outputs.parquet`
+- `results/pbt_campaign/campaign_20260928_150110/pbt_sut_outputs.parquet`
 
-- `results/pbt_ist2026/campaign_20260928_150110/pbt_property_checks.csv`
+- `results/pbt_campaign/campaign_20260928_150110/pbt_property_checks.csv`
 
-- `results/pbt_ist2026/campaign_20260928_150110/pbt_counterexamples.csv`
+- `results/pbt_campaign/campaign_20260928_150110/pbt_counterexamples.csv`
 
-- `results/pbt_ist2026/campaign_20260928_150110/pbt_execution_report_by_property.csv`
+- `results/pbt_campaign/campaign_20260928_150110/pbt_execution_report_by_property.csv`
 
-- `results/pbt_ist2026/campaign_20260928_150110/pbt_realized_coverage_by_configuration.csv`
+- `results/pbt_campaign/campaign_20260928_150110/pbt_realized_coverage_by_configuration.csv`
 
-- `results/pbt_ist2026/campaign_20260928_150110/pbt_realized_coverage_by_theta.csv`
+- `results/pbt_campaign/campaign_20260928_150110/pbt_realized_coverage_by_theta.csv`
 
-- `results/pbt_ist2026/campaign_20260928_150110/pbt_ss_realized_rq3_support.csv`
+- `results/pbt_campaign/campaign_20260928_150110/pbt_ss_realized_rq3_support.csv`
 
-- `results/pbt_ist2026/campaign_20260928_150110/pbt_integrity_report.json`
+- `results/pbt_campaign/campaign_20260928_150110/pbt_integrity_report.json`
 
 
 ## Integrity Checks
@@ -37,7 +37,7 @@
 
 - `no_pass_in_counterexamples`: `True`
 
-- `output_dir`: `results/pbt_ist2026/campaign_20260928_150110`
+- `output_dir`: `results/pbt_campaign/campaign_20260928_150110`
 
 - `pass_fail_equals_valid`: `True`
 

@@ -3,12 +3,12 @@
 Package path:
 
 ```text
-v7_palmerillas_vent_null/repository
+Repository root
 ```
 
 ## Included Artifacts
 
-- PBT implementation: `src/pbt_ist2026/`
+- PBT implementation: `src/pbt_campaign/`
 - Conventional configuration needed by the SUT wrapper: `config/config.py`
 - Frozen LightGBM artifacts: `models/*.joblib`
 - Aggregate availability/campaign/post-hoc results: `results/`
@@ -93,5 +93,5 @@ docker run --rm pbt-greenhouse-anomaly-replication:latest
 
 ## Package Size
 
-The final package size is approximately 24 MB, mostly due to the frozen model
-artifacts in `models/`.
+The public checkout size is approximately 33 MB, mostly due to the frozen model
+artifacts in `models/` and the distributed aggregate result artifacts.

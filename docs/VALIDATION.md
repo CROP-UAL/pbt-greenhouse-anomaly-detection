@@ -33,6 +33,6 @@ bash scripts/run_experiments.sh campaign
 bash scripts/run_experiments.sh posthoc
 ```
 
-The campaign writes new results under `results/pbt_ist2026/campaign_<timestamp>/`
+The campaign writes new results under `results/pbt_campaign/campaign_<timestamp>/`
 and preserves hashes of the frozen model artifacts before and after execution.
 

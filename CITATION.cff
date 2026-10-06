@@ -12,5 +12,5 @@ authors:
   - family-names: "Rodríguez"
     given-names: "Francisco"
 year: 2026
-repository-code: "TBD"
+repository-code: "https://github.com/CROP-UAL/pbt-greenhouse-anomaly-detection"
 license: "MIT"

@@ -22,7 +22,7 @@
   "planned_checks_total": 28610,
   "planned_checks_total_adaptive_ss": 26767,
   "random_seed": 20261001,
-  "ss_report_path": "data/results/pbt_ist2026/pbt_ss_availability_report.csv",
+  "ss_report_path": "data/results/pbt_campaign/pbt_ss_availability_report.csv",
   "strata": 600,
   "validation_rows": 245245,
   "validation_start": "2021-02-01 00:00:00"

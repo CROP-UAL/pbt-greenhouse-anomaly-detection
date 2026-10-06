@@ -20,14 +20,14 @@ authorized validation data
 
 | Framework element | Implementation location | Role |
 |---|---|---|
-| Generation spaces `Theta_p` | `src/pbt_ist2026/pbt_config.py` | Defines sensors, physical ranges, duration levels, perturbation levels, contextual settings, CD pairs, PSF cardinalities, quotas, and deterministic seed. |
-| Availability audit | `src/pbt_ist2026/availability_audit.py` | Counts eligible real validation contexts before executing the campaign. |
-| Test-case metadata | `src/pbt_ist2026/run_pbt_campaign.py::Case` | Stores property id, theta parameters, source indices, target index, expected detection, expected type, and RQ3 support flag. |
-| Case generation `G_p` | `src/pbt_ist2026/run_pbt_campaign.py::generate_cases` | Samples originally normal admissible base contexts and instantiates property-specific theta configurations. |
-| Case transformation | `src/pbt_ist2026/run_pbt_campaign.py::apply_case` | Applies the concrete MV, SS, N, ORV, CA, CD, or PSF transformation to the selected observation or window. |
-| Frozen SUT | `src/pbt_ist2026/run_pbt_campaign.py::FrozenSUT` | Loads frozen LightGBM artifacts, rebuilds features, applies deterministic rules, and returns observable SUT outputs. |
-| Partial oracle | `src/pbt_ist2026/run_pbt_campaign.py::main` | Compares `pred_deteccion` and `pred_tipo_anomalia` with the expected property outcome and records pass/fail. |
-| Post-hoc analysis | `src/pbt_ist2026/posthoc_analysis.py` | Reconstructs aggregate RQ1/RQ2/RQ3 summaries and plotting inputs from completed campaign outputs. |
+| Generation spaces `Theta_p` | `src/pbt_campaign/pbt_config.py` | Defines sensors, physical ranges, duration levels, perturbation levels, contextual settings, CD pairs, PSF cardinalities, quotas, and deterministic seed. |
+| Availability audit | `src/pbt_campaign/availability_audit.py` | Counts eligible real validation contexts before executing the campaign. |
+| Test-case metadata | `src/pbt_campaign/run_pbt_campaign.py::Case` | Stores property id, theta parameters, source indices, target index, expected detection, expected type, and RQ3 support flag. |
+| Case generation `G_p` | `src/pbt_campaign/run_pbt_campaign.py::generate_cases` | Samples originally normal admissible base contexts and instantiates property-specific theta configurations. |
+| Case transformation | `src/pbt_campaign/run_pbt_campaign.py::apply_case` | Applies the concrete MV, SS, N, ORV, CA, CD, or PSF transformation to the selected observation or window. |
+| Frozen SUT | `src/pbt_campaign/run_pbt_campaign.py::FrozenSUT` | Loads frozen LightGBM artifacts, rebuilds features, applies deterministic rules, and returns observable SUT outputs. |
+| Partial oracle | `src/pbt_campaign/run_pbt_campaign.py::main` | Compares `pred_deteccion` and `pred_tipo_anomalia` with the expected property outcome and records pass/fail. |
+| Post-hoc analysis | `src/pbt_campaign/posthoc_analysis.py` | Reconstructs aggregate RQ1/RQ2/RQ3 summaries and plotting inputs from completed campaign outputs. |
 
 ## Property Locations
 

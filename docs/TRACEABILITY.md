@@ -4,15 +4,15 @@ This package maps the manuscript evidence to executable artifacts as follows.
 
 | Manuscript element | Replication artifact |
 |---|---|
-| PBT property configuration | `src/pbt_ist2026/pbt_config.py` |
-| Feature construction used by the SUT wrapper | `src/pbt_ist2026/feature_engineering.py` |
-| Availability audit | `src/pbt_ist2026/availability_audit.py` |
-| Frozen-SUT PBT campaign | `src/pbt_ist2026/run_pbt_campaign.py` |
-| Post-hoc result extraction | `src/pbt_ist2026/posthoc_analysis.py` |
+| PBT property configuration | `src/pbt_campaign/pbt_config.py` |
+| Feature construction used by the SUT wrapper | `src/pbt_campaign/feature_engineering.py` |
+| Availability audit | `src/pbt_campaign/availability_audit.py` |
+| Frozen-SUT PBT campaign | `src/pbt_campaign/run_pbt_campaign.py` |
+| Post-hoc result extraction | `src/pbt_campaign/posthoc_analysis.py` |
 | Frozen SUT artifacts | `models/*.joblib` |
 | PBT architecture roadmap | `docs/ARCHITECTURE.md` |
-| Aggregate campaign report | `results/pbt_ist2026/campaign_20260928_150110/pbt_execution_report_by_property.csv` |
-| Integrity report | `results/pbt_ist2026/campaign_20260928_150110/pbt_integrity_report.json` |
+| Aggregate campaign report | `results/pbt_campaign/campaign_20260928_150110/pbt_execution_report_by_property.csv` |
+| Integrity report | `results/pbt_campaign/campaign_20260928_150110/pbt_integrity_report.json` |
 | RQ1 operationalization evidence | `results/.../posthoc_analysis/rq1_operationalization_summary.csv` |
 | RQ2 property-level conformance | `results/.../posthoc_analysis/rq2_conformance_by_property.csv` |
 | RQ2 failure-mode composition | `results/.../posthoc_analysis/counterexample_failure_modes_by_property.csv` |

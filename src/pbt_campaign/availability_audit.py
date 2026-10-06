@@ -287,7 +287,7 @@ def write_ss_availability_report(audit: pd.DataFrame) -> Path:
         ]
     ].sort_values(["implementation_sensor", "duration"])
 
-    out_dir = ROOT / "results" / "pbt_ist2026"
+    out_dir = ROOT / "results" / "pbt_campaign"
     out_dir.mkdir(parents=True, exist_ok=True)
     ss_path = out_dir / "pbt_ss_availability_report.csv"
     ss.to_csv(ss_path, index=False, quoting=csv.QUOTE_MINIMAL)
@@ -296,7 +296,7 @@ def write_ss_availability_report(audit: pd.DataFrame) -> Path:
 
 def main() -> None:
     audit, summary = run_audit()
-    out_dir = ROOT / "results" / "pbt_ist2026"
+    out_dir = ROOT / "results" / "pbt_campaign"
     out_dir.mkdir(parents=True, exist_ok=True)
     audit_path = out_dir / "pbt_availability_audit.csv"
     summary_path = out_dir / "pbt_availability_summary.json"

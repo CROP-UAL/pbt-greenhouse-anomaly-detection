@@ -15,8 +15,8 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SRC = ROOT / "src" / "pbt_ist2026"
-CAMPAIGN = ROOT / "results" / "pbt_ist2026" / "campaign_20260928_150110"
+SRC = ROOT / "src" / "pbt_campaign"
+CAMPAIGN = ROOT / "results" / "pbt_campaign" / "campaign_20260928_150110"
 POSTHOC = CAMPAIGN / "posthoc_analysis"
 
 

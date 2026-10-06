@@ -418,7 +418,7 @@ class FrozenSUT:
 
 def main() -> None:
     started = time.strftime("%Y%m%d_%H%M%S")
-    out_dir = ROOT / "results" / "pbt_ist2026" / f"campaign_{started}"
+    out_dir = ROOT / "results" / "pbt_campaign" / f"campaign_{started}"
     out_dir.mkdir(parents=True, exist_ok=False)
 
     df = _load_validation_data()

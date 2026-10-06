@@ -31,7 +31,7 @@ from pbt_config import (  # noqa: E402
 )
 from availability_audit import _normal_base_mask  # noqa: E402
 
-CAMPAIGN = ROOT / "results" / "pbt_ist2026" / "campaign_20260928_150110"
+CAMPAIGN = ROOT / "results" / "pbt_campaign" / "campaign_20260928_150110"
 OUT = CAMPAIGN / "posthoc_analysis"
 
 
