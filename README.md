@@ -123,6 +123,7 @@ and transformed observations derived from the private greenhouse dataset.
 
 See:
 
+- `docs/ARCHITECTURE.md`
 - `docs/TRACEABILITY.md`
 - `docs/VALIDATION.md`
 - `docs/SECURITY_PRIVACY.md`
