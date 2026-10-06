@@ -29,6 +29,23 @@ monitored greenhouse variables:
 PCO2EXT, PHEXT, PRAD, PTEXT, PVV, XCO2I, PRGINT, XHINV, XTINV
 ```
 
+The executable pipeline preserves the original implementation identifiers
+because they are embedded in the frozen model artifacts, configuration files,
+and generated results. The manuscript uses normalized paper identifiers. Use
+the following mapping when relating repository artifacts to the paper:
+
+| Implementation variable | Paper variable | Meaning |
+|---|---|---|
+| `PCO2EXT` | `DCO2EXT` | External CO2 concentration |
+| `PHEXT` | `DHEXT` | External relative humidity |
+| `PRAD` | `DGREXT` | External global radiation |
+| `PTEXT` | `DTEXT` | External temperature |
+| `PVV` | `DVEXT` | External wind speed |
+| `XCO2I` | `XCO2INT` | Internal CO2 concentration |
+| `PRGINT` | `XGRINT` | Internal global radiation |
+| `XHINV` | `XHINT` | Internal relative humidity |
+| `XTINV` | `XTINT` | Internal temperature |
+
 and contextual ventilation variables used by the CA generator:
 
 ```text

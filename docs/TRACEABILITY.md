@@ -34,3 +34,7 @@ The authoritative executed campaign included 26,767 valid property checks:
 
 The public package does not include raw case-level campaign files. Those files
 can be regenerated only in Level B mode with authorized data.
+
+Implementation sensor identifiers are intentionally preserved in executable
+artifacts. The correspondence between implementation variables and normalized
+paper variables is documented in `data/README.md`.

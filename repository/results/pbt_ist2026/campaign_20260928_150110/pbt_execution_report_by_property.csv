@@ -1,8 +1,0 @@
-property,planned_checks,valid_property_checks,pass,fail,counterexamples
-CA,1500,1500,1490,10,10
-CD,1600,1600,326,1274,1274
-MV,4500,4500,4500,0,0
-N,6000,6000,5470,530,530
-ORV,7200,7200,7200,0,0
-PSF,3810,3810,3810,0,0
-SS,2157,2157,1435,722,722

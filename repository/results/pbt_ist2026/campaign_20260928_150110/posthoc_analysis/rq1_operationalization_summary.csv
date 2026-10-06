@@ -1,8 +1,0 @@
-property,planned_checks,generated_checks,phi_valid_checks,rejected_candidates,sut_executed_checks,oracle_evaluated_checks,realized_theta_configurations,configurations_with_reduced_coverage,operationalized_end_to_end
-CA,1500,1500,1500,0,1500,1500,15,0,True
-CD,1600,1600,1600,0,1600,1600,8,0,True
-MV,4500,4500,4500,0,4500,4500,9,0,True
-N,6000,6000,6000,0,6000,6000,75,0,True
-ORV,7200,7200,7200,0,7200,7200,72,0,True
-PSF,3810,3810,3810,0,3810,3810,381,0,True
-SS,2157,2157,2157,0,2157,2157,40,22,True
