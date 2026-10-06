@@ -78,7 +78,7 @@ def table_text(df: pd.DataFrame) -> str:
 
 
 def load_validation_df() -> pd.DataFrame:
-    data_path = ROOT / "data" / "interim" / "02_datos_inyectados_full_v3.parquet"
+    data_path = ROOT / "data" / "interim" / "authorized_validation_campaign.parquet"
     if not data_path.exists():
         raise SystemExit(
             "Validation dataset not found. Place the authorized parquet file at "

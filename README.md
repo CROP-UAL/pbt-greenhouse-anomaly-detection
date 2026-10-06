@@ -73,7 +73,7 @@ This does not rerun the SUT and does not require the private dataset.
 Place the authorized dataset at:
 
 ```text
-data/interim/02_datos_inyectados_full_v3.parquet
+data/interim/authorized_validation_campaign.parquet
 ```
 
 Then run:

@@ -6,14 +6,14 @@ For authorized full reproduction, place the validation/campaign parquet file at
 the exact implementation path expected by the scripts:
 
 ```text
-data/interim/02_datos_inyectados_full_v3.parquet
+data/interim/authorized_validation_campaign.parquet
 ```
 
 The scripts expect the validation period to be selected internally from this
 file using the configured start timestamp `2021-02-01 00:00:00`.
 
-The file and column identifiers below are historical implementation names and
-must be preserved exactly for executable reproduction.
+The column identifiers below are historical implementation names and must be
+preserved exactly for executable reproduction.
 
 Required variables include the timestamp and label columns:
 

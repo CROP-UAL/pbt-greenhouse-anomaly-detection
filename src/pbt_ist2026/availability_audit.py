@@ -61,7 +61,7 @@ from pbt_config import (  # noqa: E402
 
 
 def _read_validation_data() -> pd.DataFrame:
-    parquet_path = ROOT / "data" / "interim" / "02_datos_inyectados_full_v3.parquet"
+    parquet_path = ROOT / "data" / "interim" / "authorized_validation_campaign.parquet"
     if not parquet_path.exists():
         raise SystemExit(
             "Validation dataset not found. Place the authorized parquet file at "
