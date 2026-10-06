@@ -1,0 +1,12 @@
+property,failure_mode,pred_deteccion,pred_tipo_anomalia,counterexamples
+CA,A_binary_miss,normal,normal,3
+CA,B_type_mismatch,anomalia,Ruido,2
+CA,B_type_mismatch,anomalia,Sensor Atascado,5
+CD,A_binary_miss,normal,normal,16
+CD,B_type_mismatch,anomalia,Contextual,106
+CD,B_type_mismatch,anomalia,Ruido,1152
+N,A_binary_miss,normal,normal,501
+N,B_type_mismatch,anomalia,Contextual,12
+N,B_type_mismatch,anomalia,Desviacion de Correlacion,17
+SS,A_binary_miss,normal,normal,713
+SS,B_type_mismatch,anomalia,Ruido,9

@@ -1,0 +1,21 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.mypy_cache/
+
+# The original greenhouse data are not part of the public package.
+data/raw/
+data/interim/
+data/*.csv
+data/*.parquet
+
+# Case-level generated campaign files may contain source indices and are excluded
+# from the public package unless a private authorized replication is being made.
+results/**/pbt_cases_raw*
+results/**/pbt_property_checks.csv
+results/**/pbt_counterexamples.csv
+results/**/pbt_sut_outputs.parquet
+results/**/pbt_execution_errors.csv
+results/**/pbt_phi_rejections.csv
