@@ -32,6 +32,11 @@ scripts/       Reproduction and validation entry points.
 src/           PBT campaign implementation.
 ```
 
+Some model and column identifiers preserve historical implementation names.
+They are intentionally kept unchanged because the frozen SUT artifacts,
+configuration, integrity checks, and executable scripts depend on those exact
+names.
+
 ## Quick Start: Level A
 
 Build the container and run the public validation check:

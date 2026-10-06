@@ -38,3 +38,7 @@ can be regenerated only in Level B mode with authorized data.
 Implementation sensor identifiers are intentionally preserved in executable
 artifacts. The correspondence between implementation variables and normalized
 paper variables is documented in `data/README.md`.
+
+Model-artifact filenames also preserve historical implementation names. They
+should not be renamed, because the frozen SUT wrapper, hash records, and
+reproduction scripts load those artifacts by exact filename.
