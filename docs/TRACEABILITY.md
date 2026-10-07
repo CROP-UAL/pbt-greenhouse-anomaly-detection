@@ -11,6 +11,7 @@ This package maps the manuscript evidence to executable artifacts as follows.
 | Post-hoc result extraction | `src/pbt_campaign/posthoc_analysis.py` |
 | Frozen SUT artifacts | `models/*.joblib` |
 | PBT architecture roadmap | `docs/ARCHITECTURE.md` |
+| Previous-work provenance | `docs/PREVIOUS_WORK.md` |
 | Aggregate campaign report | `results/pbt_campaign/campaign_20260928_150110/pbt_execution_report_by_property.csv` |
 | Integrity report | `results/pbt_campaign/campaign_20260928_150110/pbt_integrity_report.json` |
 | RQ1 operationalization evidence | `results/.../posthoc_analysis/rq1_operationalization_summary.csv` |
