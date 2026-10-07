@@ -37,6 +37,16 @@ They are intentionally kept unchanged because the frozen SUT artifacts,
 configuration, integrity checks, and executable scripts depend on those exact
 names.
 
+## Previous Work Provenance
+
+The anomaly taxonomy and predicate-oriented foundations used by this PBT
+campaign build on two previous contributions by the authors: IFAC 2026 and QRS
+2026. Their role is documented in `docs/PREVIOUS_WORK.md`.
+
+The camera-ready manuscripts of those previous works are not included in this
+repository. This package is limited to the public replication artifacts for the
+PBT campaign.
+
 ## Quick Start: Level A
 
 Build the container and run the public validation check:
